@@ -1,1 +1,54 @@
+:root {
+  --cream: #fffcea;
+  --lightgreen: #e5ffee;
+  --lightishgreen: #abd4b9;
+  --mediumgreen: #88b397;
+  --darkishgreen: #538065;
+  --darkgreen: #00321f;
+}
+body {
+  background-color: var(--lightishgreen);
+  color: var(--darkishgreen);
+}
 
+.btn {
+  background-color: var(--darkishgreen);
+  color: var(--lightgreen);
+  border: 2px solid var(--mediumgreen);
+}
+
+.btn:hover {
+  background-color: var(--mediumgreen);
+  color: var(--darkgreen);
+  border: 2px solid var(--lightgreen);
+}
+
+.bg-info {
+  background-color: var(--darkishgreen) !important;
+  color: var(--lightgreen);
+  border: 2px solid var(--mediumgreen);
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: var(--lightgreen);
+}
+
+form .form-control {
+  background-color: var(--lightgreen);
+}
+
+form .form-control::placeholder {
+  color: var(--darkishgreen);
+}
+
+footer .col-md-4 mb-0 text-muted {
+  color: var(--darkgreen);
+}
